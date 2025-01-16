@@ -1,4 +1,4 @@
-# output "azs_info" {
+# output "azs_info" { #catching availability zones from the module-vpc
 #   value       = module.vpc.azs
 # }
  output "vpc_id" {
