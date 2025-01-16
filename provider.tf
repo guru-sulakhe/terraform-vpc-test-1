@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "guru97s-remote-state"
-    key    = "expense-vpc and vpc-peering-connection"
+    key    = "expense-vpc"
     region = "us-east-1"
     dynamodb_table = "guru97s-locking-dynamodb"
   }
