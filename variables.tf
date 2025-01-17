@@ -20,5 +20,5 @@ variable "database_subnet_cidrs" {
 }
 
 variable "is_peering_required" {
-    default = true
+    default = false #if it is true peering connection will be setup with defualt vpc
 }
